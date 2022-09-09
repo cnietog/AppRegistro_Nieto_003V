@@ -1,0 +1,22 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-button (click)="mostrarMenu()">
+        <ion-icon slot="start" name="menu-outline" color="primary"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+    <ion-title>Alumno</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card>
+    <img src="assets/qrscan.png" class="ion-padding">
+  </ion-card>
+  <ion-card>
+    <ion-item href="/asistencias">
+      <ion-icon slot="start" name="asistencia" color="primary"></ion-icon>
+      <ion-label class="asistencia">Revisar asistencias</ion-label>
+    </ion-item>
+  </ion-card>
+</ion-content>
